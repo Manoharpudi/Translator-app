@@ -2,7 +2,7 @@
 A simple and clean web application that translates text from English into several other languages, built with React and styled with Tailwind CSS. This project utilizes the Deep Translate API from RapidAPI for real-time translations.
 
 ## Live Demo
-
+You can click here and check https://translatorword.netlify.app/
 ## Key Features
 -   Real-time text translation.
 -   Support for multiple languages (Telugu, Hindi, French, etc.).
