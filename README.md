@@ -1,25 +1,25 @@
-# React Translator App
-A simple and clean web application that translates text from English into several other languages, built with React and styled with Tailwind CSS. This project utilizes the Deep Translate API from RapidAPI for real-time translations.
+# React Random String & Password Generator
+This is a simple and modern web application built with React that generates secure, random strings or passwords. It was created as a task to demonstrate proficiency with core React hooks: `useState`, `useCallback`, and `useEffect`.
 
-## Live Demo
-You can click here and check https://translatorword.netlify.app/
 ## Key Features
--   Real-time text translation.
--   Support for multiple languages (Telugu, Hindi, French, etc.).
--   Clean, modern, and responsive user interface with a black and red theme.
--   Loading and error states for a smooth user experience.
+-   **Custom Length:** Users can specify the desired length of the generated string.
+-   **Instant Generation:** A new string is generated automatically on page load and with the click of a button.
+-   **One-Click Copy:** Easily copy the generated string to the clipboard.
+-   **Modern UI:** A clean, responsive "no-box" design styled with Tailwind CSS.
 
-## Tech Stack
--   **Frontend:** React.js
+## Tech Stack & Hooks
+-   **Framework:** React (Vite)
 -   **Styling:** Tailwind CSS
--   **API Calls:** Axios
--   **Translation Service:** Deep Translate API (via RapidAPI)
+-   **Core Hooks:**
+    -   `useState`: To manage string length, the generated string, and the "copied" state.
+    -   `useCallback`: To memoize the string generation function for performance.
+    -   `useEffect`: To generate a string automatically when the application first loads.
 
 ## How to Run Locally
 1.  Clone the repository:
-    `git clone https://github.com/Manoharpudi/Translator-app.git`
+    `git clone https://github.com/your-username/random-string-generator.git`
 2.  Navigate into the project directory:
-    `cd final-translator-app`
+    `cd random-string-generator`
 3.  Install dependencies:
     `npm install`
 4.  Start the development server:
